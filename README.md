@@ -25,3 +25,12 @@ ex) ./matrix_generator 10 10 1
 1 0 1 0 0 0 1 0 0 0  
   
 위와 같은 결과가 저장됩니다.  
+  
+make_sample.bash 스크립트  
+4 by 4 부터 크기는 2의 멱수로 증가하며, 32768 by 32768 크기의 행렬 sample을 생성합니다.  
+결과는 ./result에 기록됩니다.  
+  
+사용법  
+./make_sample.bash [end_number]
+end_number를 생략하면 1로 채웁니다.
+

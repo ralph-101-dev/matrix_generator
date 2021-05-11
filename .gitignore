@@ -1,0 +1,3 @@
+matrix_generator
+*.o
+/result/*.matrix
